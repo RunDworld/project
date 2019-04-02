@@ -13,7 +13,7 @@ CORS(app)
 
 
 @app.route('/')
-def main:
+def main():
 	return "Server is up and running"
 
 @app.route('/pos',method=['POST'])
